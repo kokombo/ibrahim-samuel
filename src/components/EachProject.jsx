@@ -5,7 +5,7 @@ import {Slide} from 'react-awesome-reveal'
 
 const EachProject = ({image, title, description, tools, siteUrl, gitHubLink, style}) => {
   return (
-    <Slide bottom>
+    <Slide triggerOnce direction='up'>
     <article className = {`md:${style} flex flex-col gap-10 md:items-center slide-top`}>
 
         <div className = "h-80 lg:h-96 md:w-1/2 border-2">
