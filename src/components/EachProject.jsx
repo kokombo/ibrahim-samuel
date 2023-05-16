@@ -1,7 +1,7 @@
 import React from 'react'
 import {FiGithub, FiExternalLink} from "react-icons/fi"
 import { Link } from 'react-router-dom'
-import Slide from 'react-reveal/Slide'
+import {Slide} from 'react-awesome-reveal'
 
 const EachProject = ({image, title, description, tools, siteUrl, gitHubLink, style}) => {
   return (

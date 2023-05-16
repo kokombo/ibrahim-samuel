@@ -4,10 +4,10 @@ import SamuelIbrahim from "../assets/SamuelIbrahim.jpeg"
 import { technologies } from '../data/data'
 import {BiRightArrow} from "react-icons/bi"
 import { Link } from 'react-router-dom'
-import Slide from 'react-reveal/Slide'
-import Zoom  from 'react-reveal/Zoom'
-import Bounce from 'react-reveal/Bounce'
-import Flip from "react-reveal/Flip"
+import {Slide} from 'react-awesome-reveal'
+import {Zoom}  from 'react-awesome-reveal'
+import {Bounce} from 'react-awesome-reveal'
+import {Rotate} from "react-awesome-reveal"
 
 
 
@@ -18,7 +18,7 @@ const Home = () => {
   return (
         <section className = "bg-navy h-full w-full px-6 py-14 sm:px-10 md:px-28 lg:px-36 xl:px-44"> 
 
-        <Slide bottom>
+        <Slide triggerOnce bottom>
         <header className = "mt-10 flex flex-col gap-14">
          
             <div className = "flex flex-col gap-10">
@@ -44,7 +44,7 @@ const Home = () => {
 
 
 
-        <Zoom>
+        <Zoom triggerOnce>
         <article className = "mt-28 lg:mt-40 flex flex-col lg:flex-row justify-between items-top lg:px-18 gap-5">
 
             <div className = "lg:mr-20 lg:w-2/3">
@@ -79,7 +79,7 @@ const Home = () => {
 
 
 
-        <Bounce>
+        <Bounce triggerOnce>
         <article className = "mt-28 lg:mt-40 flex flex-col gap-5 slide-right">
             <h1 className = "font-bold text-secondary text-4xl sm:text-6xl leading-12">Technologies</h1>
 
@@ -109,12 +109,12 @@ const Home = () => {
 
 
 
-        <Flip left>
+        <Rotate triggerOnce>
         <article className ="mt-28 lg:mt-40 flex flex-col gap-5 text-focus-in">
             <h1 className = "font-bold text-secondary text-4xl sm:text-6xl leading-12">My Portfolio?</h1>
             <Link to = "/project"  className = "font-semibold text-primary text-3xl self-center mt-5 animate-pulse hover:text-lightest-slate">CLICK HERE!!!</Link>
         </article>
-        </Flip>
+        </Rotate>
      
 
     </section>
