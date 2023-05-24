@@ -94,14 +94,12 @@ export const experiences = [
 
     {   
         id: 1,
-        title: "Lead Software Engineer", 
-        company: "Bowal LLC",  
-        start: "Jan 2023",
-        finish: "Present",
-        duties: ["Sed fermentum pellentesque metus, id porta magna varius sed. Nunc nunc est, placerat id sem ac, tincidunt pretium lacus. Integer sodales aliquam velit, eu commodo ipsum. Mauris vitae eleifend orci. Etiam et augue odio.", "Sed fermentum pellentesque metus, id porta magna varius sed. Nunc nunc est, placerat id sem ac, tincidunt pretium lacus. Integer sodales aliquam velit, eu commodo ipsum. Mauris vitae eleifend orci. Etiam et augue odio."
-        
-
-
+        title: "Technical Writer & Researcher", 
+        company: "ZipScore",  
+        start: "Dec 2022",
+        finish: "Feb 2023",
+        duties: ["Handled several zip code usage guildes.", "Researched and wrote how-to technical content to help startups make data-driven marketing decisions."
+    
         ]  
        
     },
@@ -110,11 +108,11 @@ export const experiences = [
 
   {
         id: 2,
-        title: "Software Developer",
-        company: "Bowal",  
-        start: "Jan 2021",
-        finish: "Present",     
-        duties: ["Mauris cursus ut nunc vitae semper. Duis vestibulum dui elit, laoreet volutpat purus gravida nec. Vestibulum eu rhoncus magna. Nulla facilisi. Quisque varius diam sit amet lorem efficitur, sed efficitur nisi lacinia.", "Mauris cursus ut nunc vitae semper. Duis vestibulum dui elit, laoreet volutpat purus gravida nec. Vestibulum eu rhoncus magna. Nulla facilisi. Quisque varius diam sit amet lorem efficitur, sed efficitur nisi lacinia." 
+        title: "Senior Technical Writer",
+        company: "DLTify",  
+        start: "May 2022",
+        finish: "Dec 2022",     
+        duties: ["Handled technical writing projects including, whitepapers, litepapers, scripts, decks, and landing page copy.", "Worked with the managing director to foster token creation." 
         ]
         
   },
@@ -122,26 +120,15 @@ export const experiences = [
 
   {
         id: 3,
-        title: "Web Developer",
-        company: "Logistics",  
-        start: "Jan 2022",
-        finish: "Present",       
-        duties: ["Vivamus quis ultricies eros. Nam vel arcu non eros elementum vulputate in id nunc. Mauris nec metus a neque placerat lobortis a vitae nibh. Mauris vel est sit amet sapien eleifend dictum. Vivamus eget leo nunc. Nulla et imperdiet odio, non ultricies ligula.", "Vivamus quis ultricies eros. Nam vel arcu non eros elementum vulputate in id nunc. Mauris nec metus a neque placerat lobortis a vitae nibh. Mauris vel est sit amet sapien eleifend dictum. Vivamus eget leo nunc. Nulla et imperdiet odio, non ultricies ligula."
+        title: "Senior Content Developer",
+        company: "Mango Capital, Inc. ",  
+        start: "Feb 2021",
+        finish: "Dec 2021",       
+        duties: ["Managed a team of 4 to build over 20 websites for businesses in the United States trucking industry.", "Researched and wrote website copy, technical content, and press releases for the organizations." 
         ]      
   }, 
 
 
-  {     
-        id: 4,
-        title: "Front-End Engineer",
-        company: "Pay",  
-        start: "Jan 2020",
-        finish: "Present",
-        duties: [ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod quis mauris ac rhoncus. Phasellus quis dolor ante. Duis sodales metus dui, fermentum pharetra velit congue quis.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod quis mauris ac rhoncus. Phasellus quis dolor ante. Duis sodales metus dui, fermentum pharetra velit congue quis. "
-        ]
-           
-   
-  }
     
 ]
 
@@ -149,24 +136,24 @@ export const experiences = [
 
 export const projects = [
     { 
-        title: 'Bowal Web App',
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod quis mauris ac rhoncus. Maecenas euismod quis mauris ac rhoncus. Phasellus quis dolor ante. Duis sodales metus dui, fermentum pharetra velit congue quis.",
-        tools: [ {tool: "VS Code"}, {tool: "JavaScript"}, {tool: "TailWind"},{tool: "React"}],
+        title: 'Bowal (Ongoing Project)',
+        description: "Bowal is a social E-commerce marketplace that leverages geo-location technology to connect online vendors and buyers within every locality in Africa. The platform’s front end is being built on ReactJS and powered by Firebase as a backend service. In this project, I used the react router 6’s loader data API to interact with the backend. This allows the provision of data to each route element before rendering. However, it makes dynamic routing relatively complicated.",
+        tools: ["JavaScript", "TailWind","React", "Firebase"],
         siteUrl: "https://www.bowal.com",
-        gitHubLink: "https://www.github.com",
-        image: "https://i.ibb.co/WBbXHXr/project1.jpg",
+        gitHubLink: "https://github.com/BowaDAO/Bowal-Web-Application",
+        image: "https://i.ibb.co/vzR345v/bowal-web-app.png",
         style: "flex-row"
 
     },
 
 
     { 
-        title: 'Bowal Web App',
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod quis mauris ac rhoncus. Phasellus quis dolor ante. Duis sodales metus dui, fermentum pharetra velit congue quis.  ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod quis mauris ac rhoncus. ",
-        tools: [ {tool: "VS Code"}, {tool: "JavaScript"}, {tool: "TailWind"},{tool: "React"}],
-        siteUrl: "https://www.bowal.com",
-        gitHubLink: "https://www.github.com",
-        image: "https://i.ibb.co/jJnWjFL/project2.jpg",
+        title: "Samuel's Personal Website",
+        description: "This is my website. The same site you are interacting with at the moment. I built it on ReactJS, using react router v6 to navigate pages and Tailwind CSS to style them. There was no interaction with API as I prepared all the data internally.",
+        tools: ["JavaScript", "TailWind" ,"React"],
+        siteUrl: "https://samuelibrahim.netlify.app",
+        gitHubLink: "https://www.github.com/BowaDAO/ibrahim-samuel",
+        image: "https://i.ibb.co/gzb36v3/samuel-s-personal-website.png",
         style: "flex-row-reverse"
 
     },
@@ -174,12 +161,12 @@ export const projects = [
 
 
     { 
-        title: 'Bowal Web App',
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod quis mauris ac rhoncus. Phasellus quis dolor ante. Duis sodales metus dui, fermentum pharetra velit congue quis.  ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod quis mauris ac rhoncus. ",
-        tools: [ {tool: "VS Code"}, {tool: "JavaScript"}, {tool: "TailWind"},{tool: "React"}],
-        siteUrl: "https://www.bowal.com",
-        gitHubLink: "https://www.github.com",
-        image: "https://i.ibb.co/jJnWjFL/project2.jpg",
+        title: 'Landing Page Template',
+        description: "This is a fully-responsive landing page template I built with React, CSS, and JavaScript. It is a simple one-pager with no routing.",
+        tools: [ "React", "Javascript", "CSS", ],
+        siteUrl: "https://xamai.netlify.app/",
+        gitHubLink: "https://github.com/BowaDAO/ailandingpage",
+        image: "https://i.ibb.co/zXpG9W9/ailandingpage.png",
         style: "flex-row"
 
     },

@@ -33,7 +33,7 @@ const Experience = () => {
                         {jobs.map((item, index)=> {
                             const {company, id} = item
 
-                            return <button  key = {id} className = {`${index === value && "border-l-4 border-primary bg-slate p-2 opacity-40 w-28"} text-lightest-slate ease-linear duration-200`} onClick = {()=> setValue(index)}>{company}</button>
+                            return <button  key = {id} className = {`${index === value && "border-l-4 border-primary bg-slate p-2 opacity-40 w-28"} text-lightest-slate ease-linear duration-200 text-start`} onClick = {()=> setValue(index)}>{company}</button>
                         })}
 
                      </div>

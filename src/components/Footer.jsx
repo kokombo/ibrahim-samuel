@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         <span>
-            <p className = "text-lightest-slate font-light text-xs sm:text-base leading-7 sm:leading-8 mt-16">Designed & Developed By Samuel Ibrahim</p>
+            <p className = "text-lightest-slate font-light text-xs sm:text-base leading-7 sm:leading-8 mt-16">Designed & Developed By Samuel Ibrahim Oluwanbowa.</p>
         </span>
       
     </section>

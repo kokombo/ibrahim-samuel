@@ -17,8 +17,7 @@ const EachProject = ({image, title, description, tools, siteUrl, gitHubLink, sty
             <p className = "text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 bg-light-navy p-5 font-light">{description}</p>
             
             <div className = "flex gap-4">
-                {tools.map((item, index)=> {
-                    const {tool} = item
+                {tools.map((tool, index)=> {
                     return (
                         <p key = {index} className = "text-primary text-xs leading-7 sm:leading-8 border-2 px-2 py-0 font-light">{tool}</p>
                     )
@@ -26,8 +25,8 @@ const EachProject = ({image, title, description, tools, siteUrl, gitHubLink, sty
 
             </div>
             <div className = "flex gap-2 items-center text-2xl text-secondary">
-               <Link to = {gitHubLink} className = "hover:text-primary"><FiGithub/></Link>
-               <Link to = {siteUrl} className = "hover:text-primary" ><FiExternalLink/></Link>           
+               <Link to = {gitHubLink} target='_blank' className = "hover:text-primary"><FiGithub/></Link>
+               <Link to = {siteUrl} target='_blank' className = "hover:text-primary" ><FiExternalLink/></Link>           
             </div>
 
         </div>
