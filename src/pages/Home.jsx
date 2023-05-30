@@ -23,7 +23,7 @@ const Home = () => {
                 I'm Samuel.
               </h1>
               <h1 className="text-lightest-slate text-4xl sm:text-6xl leading-12 font-bold">
-                SoftWare Engineer & Web Developer.
+                A Front-End Developer.
               </h1>
             </span>
 
