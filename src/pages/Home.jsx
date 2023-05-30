@@ -19,14 +19,14 @@ const Home = () => {
               <h1 className="text-primary text-1xl sm:text-4xl md:text-5xl">
                 Hi,{" "}
               </h1>
-              <h1 className="text-secondary text-3xl sm:text-5xl md:text-7xl font-bold">
+              <h1 className="text-secondary text-4xl sm:text-5xl md:text-7xl font-bold">
                 I'm Samuel.
               </h1>
-              <h1 className="text-lightest-slate text-4xl sm:text-6xl leading-12 font-bold">
-                A Front-End Developer.
+              <h1 className="text-lightest-slate text-3xl sm:text-6xl leading-12 font-bold capitalize">
+                Front-End Developer & Software Engineer.
               </h1>
             </span>
-
+            {/*  max-w-screen-lg */}
             <span className="text-focus-in">
               <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
                 I studied Chemical Engineering at the university and worked as a

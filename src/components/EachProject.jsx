@@ -18,7 +18,11 @@ const EachProject = ({
         className={`md:${style} flex flex-col gap-10 md:items-center slide-top`}
       >
         <div className="h-80 lg:h-96 md:w-1/2 border-2">
-          <img src={image} alt={title} className="h-full w-full" />
+          <img
+            src={image}
+            alt={title}
+            className="h-full w-full opacity-60 hover:opacity-100"
+          />
         </div>
 
         <div className="flex flex-col gap-6 md:w-1/2">
