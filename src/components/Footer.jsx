@@ -31,6 +31,7 @@ const Footer = () => {
           <p className="text-lightest-slate font-light text-xs sm:text-base leading-7 sm:leading-8 mt-16">
             Designed & Developed By Samuel Ibrahim Oluwanbowa.
           </p>
+          <p className="text-primary text-sm">version 1.0</p>
         </span>
       </section>
     </Slide>

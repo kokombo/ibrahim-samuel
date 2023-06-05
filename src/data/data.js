@@ -1,7 +1,7 @@
 import { FaTwitter, FaInstagram, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { DiJavascript, DiNodejs } from "react-icons/di";
-import { SiTailwindcss, SiHtml5 } from "react-icons/si";
+import { SiTailwindcss, SiHtml5, SiFirebase } from "react-icons/si";
 
 export const data = [
   {
@@ -74,6 +74,11 @@ export const technologies = [
     icon: <SiHtml5 />,
     name: "HTML5",
     color: "html-color",
+  },
+  {
+    icon: <SiFirebase />,
+    name: "Firebase",
+    color: "firebase-color",
   },
 ];
 
