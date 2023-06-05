@@ -1,7 +1,6 @@
 import React from "react";
 import { BiError } from "react-icons/bi";
 import Button from "../components/Button";
-import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
