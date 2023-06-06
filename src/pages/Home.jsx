@@ -67,7 +67,7 @@ const Home = () => {
               <p>Good to have you here!</p>
               <p>
                 My name is Samuel, and I am an enthusiastic, self-motivated
-                Front-end developer with a passion for building dynamic user
+                Front-end developer passionate about building dynamic user
                 experiences. I enjoy working on interesting problem-solving
                 projects - independently or as part of a team. I am a
                 well-organized person with serious attention to detail.
