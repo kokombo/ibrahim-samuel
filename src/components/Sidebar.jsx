@@ -41,7 +41,13 @@ const Sidebar = () => {
             })}
           </div>
 
-          <Button text="Resume" x="6" y="4" />
+          <Button
+            url="https://drive.google.com/file/d/1yb9n6K34IQdJEHoui6tXxQmcM9I62m1h/view?usp=sharing"
+            className="border-2 border-text-primary"
+            text="resume"
+            x="6"
+            y="4"
+          />
         </div>
       </div>
     </aside>

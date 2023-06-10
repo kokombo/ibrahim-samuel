@@ -40,7 +40,7 @@ const Navbar = () => {
 
         <Button
           text="Resume"
-          url="mailto:samuelibrahim3029@gmail.com"
+          url="https://drive.google.com/file/d/1yb9n6K34IQdJEHoui6tXxQmcM9I62m1h/view?usp=sharing"
           x="6"
           y="4"
         />
