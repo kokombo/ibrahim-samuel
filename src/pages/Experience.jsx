@@ -7,7 +7,7 @@ const Experience = () => {
   const [value, setValue] = useState(0);
   const [jobs] = useState(experiences);
 
-  const { title, company, start, finish, duties } = jobs[value];
+  const { title, company, start, finish, duties, location } = jobs[value];
 
   return (
     <section className="bg-navy h-full w-full px-6 py-20 sm:py-14 sm:px-10 md:px-28 lg:px-36 xl:px-44 text-focus-in">
@@ -45,6 +45,7 @@ const Experience = () => {
                 {title}
                 <span className="text-primary"> @ {company}</span>
               </h1>
+              <p className="text-lightest-slate text-[10px]">{location}</p>
               <p className="text-primary font-light">
                 {start} - {finish}
               </p>

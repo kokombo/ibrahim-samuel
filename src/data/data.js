@@ -87,6 +87,7 @@ export const experiences = [
     id: 1,
     title: "Web Developer ",
     company: "Care Connectors",
+    location: "Washington, USA",
     start: "May 2023",
     finish: "present",
     duties: [
@@ -100,6 +101,7 @@ export const experiences = [
     id: 2,
     title: "Technical Writer",
     company: "Zipscore ",
+    location: "Berlin, Germany",
     start: "Dec 2022",
     finish: "Mar 2023",
     duties: [
@@ -112,6 +114,7 @@ export const experiences = [
     id: 3,
     title: "Content Developer ",
     company: "Mango Capital, Inc. ",
+    location: "Minnesota, USA",
     start: "Feb 2021",
     finish: "Dec 2021",
     duties: [
