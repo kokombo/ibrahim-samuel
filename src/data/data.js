@@ -85,7 +85,7 @@ export const technologies = [
 export const experiences = [
   {
     id: 1,
-    title: "WEB DEVELOPER ",
+    title: "Web Developer ",
     company: "Care Connectors",
     start: "May 2023",
     finish: "present",
@@ -98,7 +98,7 @@ export const experiences = [
 
   {
     id: 2,
-    title: "TECHNICAL WRITER",
+    title: "Technical Writer",
     company: "Zipscore ",
     start: "Dec 2022",
     finish: "Mar 2023",
@@ -110,7 +110,7 @@ export const experiences = [
 
   {
     id: 3,
-    title: "CONTENT DEVELOPER ",
+    title: "Content Developer ",
     company: "Mango Capital, Inc. ",
     start: "Feb 2021",
     finish: "Dec 2021",
