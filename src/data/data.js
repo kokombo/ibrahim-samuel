@@ -85,37 +85,38 @@ export const technologies = [
 export const experiences = [
   {
     id: 1,
-    title: "Technical Writer & Researcher",
-    company: "ZipScore",
-    start: "Dec 2022",
-    finish: "Feb 2023",
+    title: "WEB DEVELOPER ",
+    company: "Care Connectors",
+    start: "May 2023",
+    finish: "present",
     duties: [
-      "Handled several zip code usage guildes.",
-      "Researched and wrote how-to technical content to help startups make data-driven marketing decisions.",
+      "Working extensively on boosting online visibility by building a simple clean, and attractive website with HTML, CSS, and JavaScript.",
+      "Modelled strategies to increase customer base by 72% through SEO best practices in coding  and continuous update of the website to meet users' needs.",
+      "Implementing enhancements that will significantly improve web functionality and speed. ",
     ],
   },
 
   {
     id: 2,
-    title: "Senior Technical Writer",
-    company: "DLTify",
-    start: "May 2022",
-    finish: "Dec 2022",
+    title: "TECHNICAL WRITER",
+    company: "Zipscore ",
+    start: "Dec 2022",
+    finish: "Mar 2023",
     duties: [
-      "Handled technical writing projects including, whitepapers, litepapers, scripts, decks, and landing page copy.",
-      "Worked with the managing director to foster token creation.",
+      "Grew customer base by developing easy-to-digest, informative user guides for targeted ads on popular social platforms through Zip code (company’s primary product) usage.",
+      "Enhanced customers’ user experience by building detailed documentation that serves as a guide to using an AI tool. ",
     ],
   },
 
   {
     id: 3,
-    title: "Senior Content Developer",
+    title: "CONTENT DEVELOPER ",
     company: "Mango Capital, Inc. ",
     start: "Feb 2021",
     finish: "Dec 2021",
     duties: [
-      "Managed a team of 4 to build over 20 websites for businesses in the United States trucking industry.",
-      "Researched and wrote website copy, technical content, and press releases for the organizations.",
+      "Improved technical team’s productivity and project completion rate by 20% through strategic milestones allocation. ",
+      "Managed 3-member team to roll out over 20 high-performance static websites for trucking and staffing companies.  ",
     ],
   },
 ];
