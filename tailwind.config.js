@@ -9,6 +9,7 @@ module.exports = {
     "text-tailwind-color",
     "text-html-color",
     "text-firebase-color",
+    "text-redux-color",
     "py-6",
     "px-8",
     "md:flex-row",
@@ -40,6 +41,7 @@ module.exports = {
         "tailwind-color": "#4dc0b5",
         "html-color": "#e34c26",
         "firebase-color": "#FFCB2B",
+        "redux-color": "#764abc",
       },
       width: {
         400: "400px",

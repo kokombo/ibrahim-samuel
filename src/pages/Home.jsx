@@ -12,7 +12,7 @@ import { Rotate } from "react-awesome-reveal";
 const Home = () => {
   return (
     <section className="bg-navy h-full w-full px-6 py-14 sm:px-10 md:px-28 lg:px-36 xl:px-44">
-      <Slide triggerOnce bottom>
+      <Slide triggerOnce>
         <header className="mt-10 flex flex-col gap-14">
           <div className="flex flex-col gap-10">
             <span className="flex flex-col gap-6 max-w-screen-lg">
@@ -30,7 +30,7 @@ const Home = () => {
             <span className="text-focus-in">
               <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
                 I studied Chemical Engineering at the university and worked as a
-                technical writer for 3 years, but{" "}
+                technical writer for 2-year, but{" "}
                 <span className="text-primary">
                   now focused on building exciting things for the web
                 </span>
@@ -69,8 +69,8 @@ const Home = () => {
                 My name is Samuel, and I am an enthusiastic, self-motivated
                 Front-end developer passionate about building dynamic user
                 experiences. I enjoy working on interesting problem-solving
-                projects - independently or as part of a team. I am a
-                well-organized person with serious attention to detail.
+                projects - independently or as a team. I am a well-organized
+                person with serious attention to detail.
                 <span className="text-primary">
                   {" "}
                   I am currently open to opportunities - interested in working

@@ -19,7 +19,7 @@ export const ContextProvider = ({ children }) => {
   useEffect(() => {
     setTimeout(() => {
       setPreLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
 
   return (

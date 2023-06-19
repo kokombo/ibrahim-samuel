@@ -1,7 +1,8 @@
 import { FaTwitter, FaInstagram, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { DiJavascript, DiNodejs } from "react-icons/di";
-import { SiTailwindcss, SiHtml5, SiFirebase } from "react-icons/si";
+import { SiTailwindcss, SiHtml5, SiFirebase, SiExpress } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
 
 export const data = [
   {
@@ -59,26 +60,42 @@ export const technologies = [
   },
 
   {
-    icon: <DiNodejs />,
-    name: "Node.js",
-    color: "node-color",
+    icon: <FaReact />,
+    name: "React Native",
+    color: "react-color",
   },
-
-  {
-    icon: <SiTailwindcss />,
-    name: "TailWindCss",
-    color: "tailwind-color",
-  },
-
   {
     icon: <SiHtml5 />,
     name: "HTML5",
     color: "html-color",
   },
+
+  {
+    icon: <SiTailwindcss />,
+    name: "TailWind",
+    color: "tailwind-color",
+  },
   {
     icon: <SiFirebase />,
     name: "Firebase",
     color: "firebase-color",
+  },
+
+  {
+    icon: <DiNodejs />,
+    name: "Node.js",
+    color: "node-color",
+  },
+  {
+    icon: <SiExpress />,
+    name: "Express.js",
+    color: "lightest-slate",
+  },
+
+  {
+    icon: <TbBrandRedux />,
+    name: "Redux Toolkit",
+    color: "redux-color",
   },
 ];
 
