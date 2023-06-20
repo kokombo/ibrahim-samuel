@@ -136,7 +136,7 @@ export const experiences = [
     finish: "Dec 2021",
     duties: [
       "Improved technical team’s productivity and project completion rate by 20% through strategic milestones allocation. ",
-      "Managed 3-member team to roll out over 20 high-performance static websites for trucking and staffing companies.  ",
+      "Managed a 3-member team to roll out over 20 high-performance static websites for trucking and staffing companies.  ",
     ],
   },
 ];
