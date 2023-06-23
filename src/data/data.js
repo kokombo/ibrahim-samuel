@@ -100,19 +100,19 @@ export const technologies = [
 ];
 
 export const experiences = [
-  {
-    id: 1,
-    title: "Web Developer ",
-    company: "Care Connectors",
-    location: "Washington, USA",
-    start: "May 2023",
-    finish: "present",
-    duties: [
-      "Working extensively on boosting online visibility by building a simple clean, and attractive website with HTML, CSS, and JavaScript.",
-      "Modelled strategies to increase customer base by 72% through SEO best practices in coding  and continuous update of the website to meet users' needs.",
-      "Implementing enhancements that will significantly improve web functionality and speed. ",
-    ],
-  },
+  // {
+  //   id: 1,
+  //   title: "Web Developer ",
+  //   company: "Care Connectors",
+  //   location: "Washington, USA",
+  //   start: "May 2023",
+  //   finish: "present",
+  //   duties: [
+  //     "Working extensively on boosting online visibility by building a simple clean, and attractive website with HTML, CSS, and JavaScript.",
+  //     "Modelled strategies to increase customer base by 72% through SEO best practices in coding  and continuous update of the website to meet users' needs.",
+  //     "Implementing enhancements that will significantly improve web functionality and speed. ",
+  //   ]
+  // },
 
   {
     id: 2,
