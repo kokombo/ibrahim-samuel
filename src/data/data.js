@@ -145,7 +145,7 @@ export const projects = [
   {
     title: "Bowal (Ongoing Project)",
     description:
-      "Bowal is a social E-commerce marketplace that leverages geo-location technology to connect online vendors and buyers within every locality in Africa. The platform’s front end is being built on ReactJS and powered by Firebase as a backend service. In this project, I used the react router 6’s loader data API to interact with the backend. This allows the provision of data to each route element before rendering. However, it makes dynamic routing relatively complicated.",
+      "Bowal is a social E-commerce marketplace that leverages geo-location technology to connect online vendors and buyers within every locality in Africa. The platform’s front end is being built on ReactJS and powered by Firebase as a backend service. In this project, I used the react router 6’s loader data API to interact with the backend. This allows the provision of data to each route element before rendering.",
     tools: ["JavaScript", "TailWind", "React", "Firebase"],
     siteUrl: "https://www.bowal.com",
     gitHubLink: "https://github.com/BowaDAO/Bowal-Web-Application",
