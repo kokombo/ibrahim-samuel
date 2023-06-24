@@ -143,35 +143,45 @@ export const experiences = [
 
 export const projects = [
   {
-    title: "Bowal (Ongoing Project)",
+    title: "Logistics Mobile App (Ongoing Project)",
+    description:
+      "The front end of a Logistics mobile application built with React Native, modeled to help customers/online shoppers enjoy doorstep delivery. The platform will operate like Bolt for delivering small-size goods/items.",
+    tools: ["React Native", "JavaScript", "React Navigation", "CSS in JS"],
+    siteUrl: "",
+    gitHubLink: "https://github.com/BowaDAO/logisticsMobileApp",
+    image: "https://i.ibb.co/0KzMtc1/logistics-app.png",
+    style: "flex-row",
+  },
+  {
+    title: "Bowal Web App (Ongoing Project)",
     description:
       "Bowal is a social E-commerce marketplace that leverages geo-location technology to connect online vendors and buyers within every locality in Africa. The platform’s front end is being built on ReactJS and powered by Firebase as a backend service. In this project, I used the react router 6’s loader data API to interact with the backend. This allows the provision of data to each route element before rendering.",
-    tools: ["JavaScript", "TailWind", "React", "Firebase"],
-    siteUrl: "https://www.bowal.com",
+    tools: ["JavaScript", "TailWind", "React.JS", "Firebase"],
+    siteUrl: "",
     gitHubLink: "https://github.com/BowaDAO/Bowal-Web-Application",
     image: "https://i.ibb.co/vzR345v/bowal-web-app.png",
-    style: "flex-row",
+    style: "flex-row-reverse",
   },
 
   {
     title: "Samuel's Personal Website",
     description:
       "This is my website. The same site you are interacting with at the moment. I built it on ReactJS, using react router v6 to navigate pages and Tailwind CSS to style them. There was no interaction with API as I prepared all the data internally.",
-    tools: ["JavaScript", "TailWind", "React"],
+    tools: ["JavaScript", "TailWind", "React.JS"],
     siteUrl: "https://samuelibrahim.netlify.app",
     gitHubLink: "https://www.github.com/BowaDAO/ibrahim-samuel",
     image: "https://i.ibb.co/gzb36v3/samuel-s-personal-website.png",
-    style: "flex-row-reverse",
+    style: "flex-row",
   },
 
   {
     title: "Landing Page Template",
     description:
       "This is a fully-responsive landing page template I built with React, CSS, and JavaScript. It is a simple one-pager with no routing.",
-    tools: ["React", "Javascript", "CSS"],
+    tools: ["React.JS", "Javascript", "CSS"],
     siteUrl: "https://xamai.netlify.app/",
     gitHubLink: "https://github.com/BowaDAO/ailandingpage",
     image: "https://i.ibb.co/zXpG9W9/ailandingpage.png",
-    style: "flex-row",
+    style: "flex-row-reverse",
   },
 ];
