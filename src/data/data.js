@@ -147,7 +147,7 @@ export const projects = [
     description:
       "The front end of a Logistics mobile application built with React Native, modeled to help customers/online shoppers enjoy doorstep delivery. The platform will operate like Bolt for delivering small-size goods/items.",
     tools: ["React Native", "JavaScript", "React Navigation", "CSS in JS"],
-    siteUrl: "",
+    siteUrl: "www.bowal.com",
     gitHubLink: "https://github.com/BowaDAO/logisticsMobileApp",
     image: "https://i.ibb.co/0KzMtc1/logistics-app.png",
     style: "flex-row",
