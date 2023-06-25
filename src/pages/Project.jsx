@@ -13,7 +13,7 @@ const Project = () => {
           <hr className="mt-6" />
         </div>
 
-        <div className="flex flex-col min-h-[500px] gap-24 mt-10">
+        <div className="flex flex-col gap-24 mt-10">
           {projects.map((item, index) => {
             return <EachProject key={index} {...item} />;
           })}
