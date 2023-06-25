@@ -177,7 +177,7 @@ export const projects = [
   {
     title: "Landing Page Template",
     description:
-      "This is a fully-responsive landing page template I built with React, CSS, and JavaScript. It is a simple one-pager with no routing.",
+      "This is a fully-responsive landing page template I built with React, CSS and JavaScript. It is a simple one-pager with no routing.",
     tools: ["React.JS", "Javascript", "CSS"],
     siteUrl: "https://xamai.netlify.app/",
     gitHubLink: "https://github.com/BowaDAO/ailandingpage",
