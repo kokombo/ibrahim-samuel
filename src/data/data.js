@@ -157,7 +157,7 @@ export const projects = [
     description:
       "Bowal is a social E-commerce marketplace that leverages geo-location technology to connect online vendors and buyers within every locality in Africa. The platform’s front end is being built on ReactJS and powered by Firebase as a backend service. In this project, I used the react router 6’s loader data API to interact with the backend. This allows the provision of data to each route element before rendering.",
     tools: ["JavaScript", "TailWind", "React.JS", "Firebase"],
-    siteUrl: "https://www.bowalwebapp.netlify.app",
+    siteUrl: "https://bowalwebapp.netlify.app",
     gitHubLink: "https://github.com/BowaDAO/Bowal-Web-Application",
     image: "https://i.ibb.co/vzR345v/bowal-web-app.png",
     style: "flex-row-reverse",
