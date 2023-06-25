@@ -14,9 +14,7 @@ const EachProject = ({
 }) => {
   return (
     <Slide triggerOnce direction="up">
-      <article
-        className={`md:${style} flex flex-col gap-10 md:items-center slide-top`}
-      >
+      <article className={`md:${style} flex flex-col gap-10 md:items-center`}>
         <div className="h-80 lg:h-96 md:w-1/2 border-2">
           <img
             src={image}

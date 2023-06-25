@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Route,
   createBrowserRouter,
@@ -9,6 +8,7 @@ import Layout from "./Layout/Layout";
 import { Home, Experience, Project, Error } from "./pages";
 import { useGlobalContext } from "./Context/ContextProvider";
 import { PreLoader } from "./components";
+import { useLayoutEffect } from "react";
 
 const routerEl = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +26,10 @@ const routerEl = createBrowserRouter(
 
 const App = () => {
   const { preLoading } = useGlobalContext();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>{preLoading ? <PreLoader /> : <RouterProvider router={routerEl} />}</>

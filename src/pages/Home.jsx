@@ -137,6 +137,9 @@ const Home = () => {
           </h1>
           <Link
             to="/project"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="font-semibold text-primary text-3xl self-center mt-5 animate-pulse hover:text-lightest-slate"
           >
             CLICK HERE!!!
