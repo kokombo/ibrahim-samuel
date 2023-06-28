@@ -28,21 +28,25 @@ export const icons = [
   {
     icon: <FaLinkedinIn />,
     url: "https://www.linkedin.com/in/samuel-ibrahim-84154818b/",
+    name: "linkedin",
   },
 
   {
     icon: <FaTwitter />,
     url: "https://www.twitter.com/Oluwanbowa",
+    name: "twitter",
   },
 
   {
     icon: <FiGithub />,
     url: "https://github.com/BowaDAO",
+    name: "github",
   },
 
   {
     icon: <FaInstagram />,
     url: "https://instagram.com/oluwanbowa_?igshid=YmMyMTA2M2Y=",
+    name: "instagram",
   },
 ];
 

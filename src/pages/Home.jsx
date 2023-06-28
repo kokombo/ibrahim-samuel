@@ -26,18 +26,17 @@ const Home = () => {
                 Front-End Developer & Software Engineer.
               </h1>
             </span>
-            {/*  max-w-screen-lg */}
+
             <span className="text-focus-in">
               <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
                 I studied Chemical Engineering at the university and worked as a
-                technical writer for 2-year, but{" "}
+                technical writer for 2-year, but
                 <span className="text-primary">
                   now focused on building exciting things for the web
                 </span>
                 . I am excited to take on new and even the most difficult
                 challenges, as I have always thrived as a problem solver.
                 <span className="text-primary">
-                  {" "}
                   I BUILD WEB APPLICATIONS, ensuring best practices
                 </span>
                 . I am happy to connect with you!
@@ -137,6 +136,7 @@ const Home = () => {
           </h1>
           <Link
             to="/project"
+            aria-label="click here to visit my projects page"
             onClick={() => {
               window.scrollTo(0, 0);
             }}

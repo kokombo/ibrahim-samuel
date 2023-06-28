@@ -17,6 +17,7 @@ const Navbar = () => {
         <button
           onClick={openSidebar}
           className="text-primary text-2xl md:hidden"
+          name="nav-toggle"
         >
           <FaBars />
         </button>
@@ -30,6 +31,7 @@ const Navbar = () => {
               <NavLink
                 to={url}
                 key={id}
+                aria-label={name}
                 className="text-1xl text-secondary hover:text-primary"
               >
                 {name}

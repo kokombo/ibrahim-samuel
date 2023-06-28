@@ -32,6 +32,7 @@ const Sidebar = () => {
                 <NavLink
                   key={id}
                   to={url}
+                  aria-label={name}
                   className=" hover:text-primary"
                   onClick={closeSidebar}
                 >
