@@ -12,7 +12,7 @@ const Sidebar = () => {
     <aside
       className={`${
         isSidebarOpen ? "inline scale" : "hidden"
-      } fixed top-0 z-50 left-0 flex justify-center w-full md:hidden`}
+      } fixed top-0 z-50 left-0 flex justify-center h-full w-full md:hidden`}
     >
       <div className="bg-light-navy sidebar mt-5 w-11/12 h-screen p-10 flex flex-col ">
         <div>
@@ -25,22 +25,23 @@ const Sidebar = () => {
         </div>
 
         <div className="flex flex-col items-center gap-20">
-          <div className="flex flex-col gap-10 items-center text-secondary text-2xl mt-20">
+          <ul className="flex flex-col gap-10 items-center text-secondary text-2xl mt-20">
             {data.map((item) => {
               const { id, name, url } = item;
               return (
-                <NavLink
-                  key={id}
-                  to={url}
-                  aria-label={name}
-                  className=" hover:text-primary"
-                  onClick={closeSidebar}
-                >
-                  {name}
-                </NavLink>
+                <li key={id}>
+                  <NavLink
+                    to={url}
+                    aria-label={name}
+                    className=" hover:text-primary"
+                    onClick={closeSidebar}
+                  >
+                    {name}
+                  </NavLink>
+                </li>
               );
             })}
-          </div>
+          </ul>
 
           <Button
             url="https://drive.google.com/file/d/1yb9n6K34IQdJEHoui6tXxQmcM9I62m1h/view?usp=sharing"

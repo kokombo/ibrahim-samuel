@@ -11,34 +11,35 @@ const Navbar = () => {
   return (
     <nav className="py-4 px-6 bg-navy flex justify-between items-center md:px-14">
       <div className="flex justify-between items-center w-full">
-        <Link to="/" className="text-4xl text-primary">
+        <Link to="/" className="text-4xl text-primary" aria-label="logo">
           S
         </Link>
         <button
           onClick={openSidebar}
           className="text-primary text-2xl md:hidden"
-          name="nav-toggle"
+          aria-label="navigation bar"
         >
           <FaBars />
         </button>
       </div>
 
       <div className="md:flex items-center gap-20 hidden">
-        <div className="flex items-center gap-10">
+        <ul className="flex items-center gap-10">
           {data.map((item) => {
             const { id, name, url } = item;
             return (
-              <NavLink
-                to={url}
-                key={id}
-                aria-label={name}
-                className="text-1xl text-secondary hover:text-primary"
-              >
-                {name}
-              </NavLink>
+              <li key={id}>
+                <NavLink
+                  to={url}
+                  aria-label={name}
+                  className="text-1xl text-secondary hover:text-primary"
+                >
+                  {name}
+                </NavLink>
+              </li>
             );
           })}
-        </div>
+        </ul>
 
         <Button
           text="Resume"
