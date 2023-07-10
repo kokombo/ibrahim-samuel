@@ -49,6 +49,7 @@ const Sidebar = () => {
             text="resume"
             x="6"
             y="4"
+            onClick={closeSidebar}
           />
         </div>
       </div>
