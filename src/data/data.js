@@ -126,7 +126,7 @@ export const experiences = [
     start: "Dec 2022",
     finish: "Mar 2023",
     duties: [
-      "Grew customer base by developing easy-to-digest, informative user guides for targeted ads on popular social platforms through Zip code (company’s primary product) usage.",
+      "Contributed to customer base growth by developing valuable user guides for targeted ads on popular social platforms using Zip codes (company’s primary product)",
       "Enhanced customers’ user experience by building detailed documentation that serves as a guide to using an AI tool. ",
     ],
   },
@@ -139,13 +139,23 @@ export const experiences = [
     start: "Feb 2021",
     finish: "Dec 2021",
     duties: [
-      "Improved technical team’s productivity and project completion rate by 20% through strategic milestones allocation. ",
+      "Improved technical team’s productivity by 20% through strategic ticket allocation.",
       "Managed a 3-member team to roll out over 20 high-performance static websites for trucking and staffing companies.  ",
     ],
   },
 ];
 
 export const projects = [
+  {
+    title: "Text Scrapper",
+    description:
+      "A simple web application built with React to scrap text from an image. It uses tesseract.js to recognize the text on an image and extract it. Wanted a tool that can help me extract text from screenshots hence I built this.",
+    tools: ["React", "JavaScript", "Tesseract.js"],
+    siteUrl: "https://text-scrapper.netlify.app",
+    gitHubLink: "https://github.com/BowaDAO/text-scrapper",
+    image: "https://i.ibb.co/8XYNnvW/text-scrapper-netlify-app-i-Pad.png",
+    style: "flex-row",
+  },
   {
     title: "Logistics Mobile App (Ongoing Project)",
     description:
@@ -154,7 +164,7 @@ export const projects = [
     siteUrl: "www.bowal.com",
     gitHubLink: "https://github.com/BowaDAO/logisticsMobileApp",
     image: "https://i.ibb.co/0KzMtc1/logistics-app.png",
-    style: "flex-row",
+    style: "flex-row-reverse",
   },
   {
     title: "Bowal Web App (Ongoing Project)",
@@ -164,7 +174,7 @@ export const projects = [
     siteUrl: "https://bowalwebapp.netlify.app",
     gitHubLink: "https://github.com/BowaDAO/Bowal-Web-Application",
     image: "https://i.ibb.co/vzR345v/bowal-web-app.png",
-    style: "flex-row-reverse",
+    style: "flex-row",
   },
 
   {
@@ -175,7 +185,7 @@ export const projects = [
     siteUrl: "https://samuelibrahim.com",
     gitHubLink: "https://www.github.com/BowaDAO/ibrahim-samuel",
     image: "https://i.ibb.co/gzb36v3/samuel-s-personal-website.png",
-    style: "flex-row",
+    style: "flex-row-reverse",
   },
 
   {
@@ -186,6 +196,6 @@ export const projects = [
     siteUrl: "https://xamai.netlify.app/",
     gitHubLink: "https://github.com/BowaDAO/ailandingpage",
     image: "https://i.ibb.co/zXpG9W9/ailandingpage.png",
-    style: "flex-row-reverse",
+    style: "flex-row",
   },
 ];
