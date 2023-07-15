@@ -30,7 +30,7 @@ const Home = () => {
             <span className="text-focus-in">
               <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
                 I studied Chemical Engineering at the university and worked as a
-                technical writer for 2-year, but
+                technical writer for 2-year, but{" "}
                 <span className="text-primary">
                   now focused on building exciting things for the web
                 </span>
