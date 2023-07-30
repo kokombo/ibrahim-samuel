@@ -25,7 +25,7 @@ export const ContextProvider = ({ children }) => {
     return () => {
       window.removeEventListener("resize", handleWindowResize);
     };
-  }, [window.innerWidth]);
+  }, []);
 
   useEffect(() => {
     setTimeout(() => {
