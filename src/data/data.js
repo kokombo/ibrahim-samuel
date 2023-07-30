@@ -106,25 +106,11 @@ export const technologies = [
 export const experiences = [
   {
     id: 1,
-    title: "Web Developer ",
-    company: "Care Connectors",
-    location: "Washington, USA",
-    start: "May 2023",
-    finish: "present",
-    duties: [
-      "Working extensively on boosting online visibility by building a simple clean, and attractive website with HTML, CSS, and JavaScript.",
-      "Modelled strategies to increase customer base by 72% through SEO best practices in coding  and continuous update of the website to meet users' needs.",
-      "Implementing enhancements that will significantly improve web functionality and speed. ",
-    ],
-  },
-
-  {
-    id: 2,
     title: "Technical Writer",
     company: "Zipscore ",
     location: "Berlin, Germany",
-    start: "Dec 2022",
-    finish: "Mar 2023",
+    start: "Dec 2021",
+    finish: "Mar 2022",
     duties: [
       "Contributed to customer base growth by developing valuable user guides for targeted ads on popular social platforms using Zip codes (company’s primary product)",
       "Enhanced customers’ user experience by building detailed documentation that serves as a guide to using an AI tool. ",
@@ -132,7 +118,7 @@ export const experiences = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "Content Developer ",
     company: "Mango Capital, Inc. ",
     location: "Minnesota, USA",
@@ -160,7 +146,12 @@ export const projects = [
     title: "Logistics Mobile App (Ongoing Project)",
     description:
       "The front end of a Logistics mobile application built with React Native, modeled to help customers/online shoppers enjoy doorstep delivery. The platform will operate like Bolt for delivering small-size goods/items.",
-    tools: ["React Native", "JavaScript", "React Navigation", "CSS in JS"],
+    tools: [
+      "React Native",
+      "JavaScript",
+      "React Navigation",
+      "React Native Map",
+    ],
     siteUrl: "www.bowal.com",
     gitHubLink: "https://github.com/BowaDAO/logisticsMobileApp",
     image: "https://i.ibb.co/0KzMtc1/logistics-app.png",

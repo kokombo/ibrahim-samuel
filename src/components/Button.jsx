@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Button = ({ text, url, x, y, onClick }) => {
+const Button = ({ text, url, x, y, onClick, target }) => {
   return (
-    <Link to={url}>
-      <button
-        onClick={onClick}
-        className={`text-primary border-2 text-1xs border-primary py-${y} px-${x} rounded hover:bg-primary hover:text-secondary hover:scale-90 hover:bg-opacity-30"`}
-      >
-        {text}
-      </button>
+    <Link
+      to={url}
+      onClick={onClick}
+      target={target}
+      className={`text-primary border-2 text-1xs border-primary py-${y} px-${x} rounded`}
+    >
+      {text}
     </Link>
   );
 };

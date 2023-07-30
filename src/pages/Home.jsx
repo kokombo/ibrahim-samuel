@@ -23,23 +23,21 @@ const Home = () => {
                 I'm Samuel.
               </h1>
               <h1 className="text-lightest-slate text-3xl sm:text-6xl leading-12 font-bold capitalize">
-                Front-End Developer & Software Engineer.
+                Software Developer
               </h1>
             </span>
 
             <span className="text-focus-in">
               <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
-                I studied Chemical Engineering at the university and worked as a
-                technical writer for 2-year, but{" "}
+                A highly-motivated software developer{" "}
                 <span className="text-primary">
-                  now focused on building exciting things for the web
-                </span>
-                . I am excited to take on new and even the most difficult
-                challenges, as I have always thrived as a problem solver.
-                <span className="text-primary">
-                  I BUILD WEB APPLICATIONS, ensuring best practices
-                </span>
-                . I am happy to connect with you!
+                  experienced in developing codes for web and mobile
+                  applications.
+                </span>{" "}
+                I am open to interesting and highly ambitious
+                opportunities/roles.{" "}
+                <span className="text-primary">Would love to discuss? </span> I
+                am happy to connect with you!
               </p>
             </span>
           </div>

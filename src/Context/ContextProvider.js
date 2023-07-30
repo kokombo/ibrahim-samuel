@@ -5,7 +5,7 @@ export const AppContext = createContext();
 
 export const ContextProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [screenSize, setScreenSize] = useState(undefined);
+  const [screenSize, setScreenSize] = useState(window.innerWidth);
   const [preLoading, setPreLoading] = useState(true);
 
   const openSidebar = () => {
@@ -15,6 +15,17 @@ export const ContextProvider = ({ children }) => {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
+
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setScreenSize(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, [window.innerWidth]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -28,9 +39,7 @@ export const ContextProvider = ({ children }) => {
         openSidebar,
         closeSidebar,
         isSidebarOpen,
-        setIsSidebarOpen,
         screenSize,
-        setScreenSize,
         preLoading,
       }}
     >
