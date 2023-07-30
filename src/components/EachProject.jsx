@@ -1,4 +1,3 @@
-import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";

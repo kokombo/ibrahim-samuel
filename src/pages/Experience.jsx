@@ -1,4 +1,3 @@
-import React from "react";
 import { experiences } from "../data/data";
 import { useState } from "react";
 import { BiRightArrow } from "react-icons/bi";

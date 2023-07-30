@@ -1,4 +1,3 @@
-import React from "react";
 import { data } from "../data/data";
 import { Link, NavLink } from "react-router-dom";
 import Button from "./Button";

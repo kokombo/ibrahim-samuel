@@ -1,4 +1,3 @@
-import React from "react";
 import { data } from "../data/data";
 import { FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";

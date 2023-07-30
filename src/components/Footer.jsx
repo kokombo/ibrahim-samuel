@@ -1,11 +1,10 @@
-import React from "react";
 import Button from "./Button";
 import { Slide } from "react-awesome-reveal";
 
 const Footer = () => {
   return (
     <Slide triggerOnce left>
-      <section className="bg-navy h-full w-full px-6 sm:px-10 md:px-28 lg:px-36 xl:px-44 pt-20 text-center flex flex-col gap-6">
+      <footer className="bg-navy h-full w-full px-6 sm:px-10 md:px-28 lg:px-36 xl:px-44 pt-20 text-center flex flex-col gap-6">
         <h1 className="font-bold text-secondary text-4xl sm:text-6xl leading-12 ">
           Get In Touch
         </h1>
@@ -33,7 +32,7 @@ const Footer = () => {
           </p>
           <p className="text-primary text-sm">version 1.0</p>
         </span>
-      </section>
+      </footer>
     </Slide>
   );
 };

@@ -1,4 +1,3 @@
-import React from "react";
 import { BiError } from "react-icons/bi";
 import Button from "../components/Button";
 
