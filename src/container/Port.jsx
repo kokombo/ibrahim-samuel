@@ -4,7 +4,7 @@ import { Rotate } from "react-awesome-reveal";
 const Port = () => {
   return (
     <Rotate triggerOnce>
-      <article className="mt-28 lg:mt-40 flex flex-col gap-5 text-focus-in">
+      <section className="mt-28 lg:mt-40 flex flex-col gap-5 text-focus-in">
         <h1 className="font-bold text-secondary text-4xl sm:text-6xl leading-12">
           My Portfolio?
         </h1>
@@ -18,7 +18,7 @@ const Port = () => {
         >
           CLICK HERE!!!
         </Link>
-      </article>
+      </section>
     </Rotate>
   );
 };

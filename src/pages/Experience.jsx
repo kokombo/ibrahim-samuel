@@ -9,14 +9,14 @@ const Experience = () => {
   const { title, company, start, finish, duties, location } = jobs[value];
 
   return (
-    <section className="bg-navy h-full w-full px-6 py-20 sm:py-14 sm:px-10 md:px-28 lg:px-36 xl:px-44 text-focus-in">
+    <main className="bg-navy h-full w-full px-6 py-20 sm:py-14 sm:px-10 md:px-28 lg:px-36 xl:px-44 text-focus-in">
       <div className="flex flex-col gap-20 lg:mt-10">
-        <div>
+        <article>
           <h1 className="font-bold text-secondary text-4xl sm:text-6xl leading-12">
             Where I've Worked
           </h1>
           <hr className="mt-6" />
-        </div>
+        </article>
 
         <div className="flex md:gap-20 gap-5">
           <div className="flex flex-col gap-10 items-start">
@@ -39,7 +39,7 @@ const Experience = () => {
           </div>
 
           <div className="flex flex-col gap-10">
-            <div className="flex flex-col gap-2">
+            <article className="flex flex-col gap-2">
               <h1 className="text-lightest-slate text-xl">
                 {title}
                 <span className="text-primary"> @ {company}</span>
@@ -48,9 +48,9 @@ const Experience = () => {
               <p className="text-primary font-light">
                 {start} - {finish}
               </p>
-            </div>
+            </article>
 
-            <div className="flex flex-col">
+            <article className="flex flex-col">
               {duties.map((duty, index) => {
                 return (
                   <div
@@ -66,11 +66,11 @@ const Experience = () => {
                   </div>
                 );
               })}
-            </div>
+            </article>
           </div>
         </div>
       </div>
-    </section>
+    </main>
   );
 };
 

@@ -4,7 +4,7 @@ import { Bounce } from "react-awesome-reveal";
 const Techs = () => {
   return (
     <Bounce triggerOnce>
-      <article className="mt-28 lg:mt-40 flex flex-col gap-5 slide-right">
+      <section className="mt-28 lg:mt-40 flex flex-col gap-5 slide-right">
         <h1 className="font-bold text-secondary text-4xl sm:text-6xl leading-12">
           Technologies
         </h1>
@@ -27,7 +27,7 @@ const Techs = () => {
             );
           })}
         </div>
-      </article>
+      </section>
     </Bounce>
   );
 };

@@ -6,7 +6,7 @@ const Header = () => {
     <Slide triggerOnce>
       <header className="mt-10 flex flex-col gap-14">
         <div className="flex flex-col gap-10">
-          <span className="flex flex-col gap-6 max-w-screen-lg">
+          <article className="flex flex-col gap-6 max-w-screen-lg">
             <h1 className="text-primary text-1xl sm:text-4xl md:text-5xl">
               Hi,{" "}
             </h1>
@@ -16,9 +16,9 @@ const Header = () => {
             <h1 className="text-lightest-slate text-3xl sm:text-6xl leading-12 font-bold capitalize">
               Software Developer
             </h1>
-          </span>
+          </article>
 
-          <span className="text-focus-in">
+          <article className="text-focus-in">
             <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
               A highly-motivated software developer{" "}
               <span className="text-primary">
@@ -28,7 +28,7 @@ const Header = () => {
               <span className="text-primary">Would love to discuss? </span> I am
               happy to connect with you!
             </p>
-          </span>
+          </article>
         </div>
 
         <div>
