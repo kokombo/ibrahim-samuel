@@ -3,7 +3,7 @@ import { Slide } from "react-awesome-reveal";
 
 const Footer = () => {
   return (
-    <Slide triggerOnce left>
+    <Slide triggerOnce>
       <footer className="bg-navy h-full w-full px-6 sm:px-10 md:px-28 lg:px-36 xl:px-44 pt-20 text-center flex flex-col gap-6">
         <h1 className="font-bold text-secondary text-4xl sm:text-6xl leading-12 ">
           Get In Touch

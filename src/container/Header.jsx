@@ -3,7 +3,7 @@ import { Button } from "../components";
 
 const Header = () => {
   return (
-    <Slide triggerOnce left>
+    <Slide triggerOnce>
       <header className="mt-10 flex flex-col gap-14">
         <div className="flex flex-col gap-10">
           <article className="flex flex-col gap-6 max-w-screen-lg">
