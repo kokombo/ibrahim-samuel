@@ -3,7 +3,7 @@ import { Button } from "../components";
 
 const Header = () => {
   return (
-    <Slide triggerOnce>
+    <Slide triggerOnce left>
       <header className="mt-10 flex flex-col gap-14">
         <div className="flex flex-col gap-10">
           <article className="flex flex-col gap-6 max-w-screen-lg">
@@ -22,9 +22,10 @@ const Header = () => {
             <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
               A highly-motivated software developer{" "}
               <span className="text-primary">
-                experienced in developing codes for web and mobile applications.
+                adept in developing codes for web and mobile applications.
               </span>{" "}
-              I am open to interesting and highly ambitious opportunities/roles.{" "}
+              I am currently open to interesting and highly ambitious
+              opportunities/roles.{" "}
               <span className="text-primary">Would love to discuss? </span> I am
               happy to connect with you!
             </p>
