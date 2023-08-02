@@ -19,7 +19,7 @@ const Header = () => {
           </article>
 
           <article className="text-focus-in">
-            <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 max-w-screen-sm">
+            <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 lg:max-w-screen-sm">
               A highly-motivated software developer{" "}
               <span className="text-primary">
                 adept in developing codes for web and mobile applications.
