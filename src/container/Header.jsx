@@ -1,4 +1,3 @@
-import { Slide } from "react-awesome-reveal";
 import { Button } from "../components";
 
 const Header = () => {
