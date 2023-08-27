@@ -18,9 +18,9 @@ const Header = () => {
 
         <article>
           <p className="text-lightest-slate text-xs sm:text-base leading-7 sm:leading-8 lg:max-w-screen-sm">
-            A highly-motivated software developer{" "}
+            A fun software developer{" "}
             <span className="text-primary">
-              adept in developing codes for web and mobile applications.
+              adept in problem-solving and building web & mobile applications.
             </span>{" "}
             I am currently open to interesting and highly ambitious
             opportunities/roles.{" "}
@@ -32,7 +32,7 @@ const Header = () => {
 
       <div>
         <Button
-          text="Send a Message"
+          text="Shoot Me An Email Now!"
           url="mailto:samuelibrahim3029@gmail.com"
           y="4"
           x="6"

@@ -19,7 +19,7 @@ const Footer = () => {
 
         <div>
           <Button
-            text="Contact Me"
+            text="Let's Discuss"
             url="mailto:samuelibrahim3029@gmail.com"
             y="4"
             x="6"
